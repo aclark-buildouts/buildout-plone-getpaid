@@ -1,0 +1,12 @@
+[buildout]
+extends = http://dist.aclark.net/build/plone/4.1.x/develop.cfg
+auto-checkout = 
+    Products.PloneGetPaid
+    getpaid.core
+
+[sources]
+Products.PloneGetPaid = svn http://getpaid.googlecode.com/svn/getpaid.core/trunk/
+getpaid.core = svn http://getpaid.googlecode.com/svn/getpaid.core/trunk/
+
+[plone]
+eggs += Products.PloneGetPaid

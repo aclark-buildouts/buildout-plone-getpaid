@@ -1,5 +1,5 @@
 [buildout]
-extends = 0.10.4
+extends = 4.2.x
 
 [versions]
 # Use travis-ci version
